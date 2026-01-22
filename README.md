@@ -93,6 +93,6 @@ print(variables_2)
 
 - Automatic Parsing: Detects .sav (SPSS), .dta (Stata), .csv, and .xlsx extensions and converts them instantly to Pandas DataFrames. (some xlsx could have multiple sheets, be aware of that)
 
-- Session Management: Automatically handles cookie expiration and retries authentication if a 401 Unauthorized error occurs.
+- Session Management: Automatically handles cookie expiration and retries authentication if Unauthorized error occurs.
 
 - Data Integrity: When using repositories.get(), a _source_idno column is added to help track the origin of each row in concatenated datasets.
