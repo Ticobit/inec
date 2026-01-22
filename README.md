@@ -20,7 +20,15 @@ The module is organized into three main levels to navigate the INEC database:
 
 ## 2. Initialization
 
-To use the module, you need an account on the INEC portal. The `autofill_msg` parameter is crucial as it automatically handles data request justification forms.
+To use this module, you must have an active account on the INEC portal.
+
+### Obtaining your API Key
+1. Go to the [INEC Profile Page](https://sistemas.inec.cr/nada5.4/index.php/auth/profile).
+2. Log in with your credentials.
+3. Look for the **API Key** section to generate or copy your unique token.
+
+### Initialization
+The `autofill_msg` parameter is used to automatically complete the "Purpose of Request" forms required by many datasets.
 
 ```python
 from inec_module import INECAPI
