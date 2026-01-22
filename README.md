@@ -31,7 +31,7 @@ To use this module, you must have an active account on the INEC portal.
 The `autofill_msg` parameter is used to automatically complete the "Purpose of Request" forms required by many datasets.
 
 ```python
-from inec_module import INECAPI
+from inec import INECAPI
 
 client = INECAPI(
     api_key="YOUR_API_KEY", 

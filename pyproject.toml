@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "inec"
-version = "0.1.0"
+version = "0.1.1"
 description = "Method for accessing INEC data directly from Python"
 readme = "README.md"
 authors = [{ name = "Marco Piedra", email = "apiedram@gmail.com" }]
